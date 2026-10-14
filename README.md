@@ -5,6 +5,14 @@ façade, afficheur fluorescent 20 × 2, 9 modules, 47 types d'effets et paramèt
 tels que décrits dans le manuel d'origine. Les algorithmes sont des modèles, pas
 une copie du DSP d'origine. La marque est remplacée par « RETROFX ».
 
+## Téléchargement
+
+Dernière version : [page des Releases](https://github.com/elgaucholoco/RetroFX9030/releases/latest), fichier `RetroFX9030-x.y.z-macOS.zip`
+(VST3, AU et application autonome, macOS 11+, Apple Silicon et Intel). Le fichier `INSTALLATION.txt` du zip explique où copier les plug-ins.
+
+Le plug-in n'est pas signé par un développeur Apple identifié : si macOS le bloque, lancer une fois dans le Terminal
+`xattr -dr com.apple.quarantine ~/Library/Audio/Plug-Ins/VST3/"RetroFX 9030.vst3"` (et de même pour le `.component`).
+
 ## Utilisation (comme l'appareil)
 
 | Touche | Mode Play | Mode Edit |
